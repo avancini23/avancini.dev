@@ -5,7 +5,7 @@ date: 2024-01-25 11:07
 draft: false
 ---
 
-> Oct. 2026 note: This is an old guide I wrote back in 2024. This might be out-of-date
+>[!WARNING]  Oct. 2026 note: This is an old guide I wrote back in 2024. This might be out-of-date
 
 ## 1. Getting Started
 

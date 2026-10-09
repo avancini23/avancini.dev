@@ -5,7 +5,7 @@ date: 2023-11-26 11:28
 draft: false
 ---
 
-> Oct. 2026 note: This is an old guide I wrote back in 2023. This might be out-of-date
+>[!WARNING] Oct. 2026 note: This is an old guide I wrote back in 2023. This might be out-of-date
 
 A non-nonsense guide
 
