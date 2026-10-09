@@ -1,138 +1,198 @@
 {
-    "name": "John Doe",
-    "role": "Software Engineer",
-    "home": {
-        "bio": "Generalist software engineer focused on building reliable, maintainable systems — equally comfortable across the frontend, backend, and infrastructure layers.",
-        "note": "Thanks for visiting! This is a demo site with placeholder content."
+  "name": "Avancini",
+  "role": "Senior AI Engineer",
+  "home": {
+    "bio": "Senior AI and software engineer focused on building production LLM systems, AI platforms, and backend services.My work spans the full lifecycle of AI applications, from architecture and model evaluation to APIs, user-facing tools, cloud deployment, observability, and production optimization.",
+    "note": ""
+  },
+  "site": {
+    "name": "avancini.dev",
+    "url": "avancini.dev",
+    "title": "Avancini - AI Engineer",
+    "description": "Software engineer specializing in web applications, APIs, and cloud infrastructure",
+    "locale": "en_US",
+    "ogImage": ""
+  },
+  "contacts": [
+    {
+      "label": "email",
+      "text": "hello@avancini.dev",
+      "href": "mailto:hello@avancini.dev"
     },
-    "site": {
-        "name": "example.com",
-        "url": "https://example.com",
-        "title": "John Doe - Software Engineer",
-        "description": "Software engineer specializing in web applications, APIs, and cloud infrastructure",
-        "locale": "en_US",
-        "ogImage": ""
+    {
+      "label": "github",
+      "text": "@avancini23",
+      "href": "https://github.com/avancini23",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
     },
-    "contacts": [
-        {
-            "label": "email",
-            "text": "john.doe@example.com",
-            "href": "mailto:john.doe@example.com"
-        },
-        {
-            "label": "github",
-            "text": "@johndoe",
-            "href": "https://github.com/johndoe",
-            "target": "_blank",
-            "rel": "noopener noreferrer"
-        },
-        {
-            "label": "twitter",
-            "text": "@johndoe",
-            "href": "https://x.com/johndoe",
-            "target": "_blank",
-            "rel": "noopener noreferrer"
-        },
-        {
-            "label": "discord",
-            "text": "@johndoe",
-            "href": "https://discord.com/users/000000000000000000",
-            "target": "_blank",
-            "rel": "noopener noreferrer"
-        }
-    ],
-    "resume": {
-        "name": "John Doe",
-        "role": "Software Engineer",
-        "bio": "Software engineer with a broad background across web applications, APIs, databases, and cloud infrastructure. Focused on clean architecture, automation, and shipping reliable software.",
-        "downloads": {
-            "cv": {
-                "label": "download cv",
-                "text": "cv.pdf",
-                "href": "/cv.pdf",
-                "filename": "john-doe-cv.pdf"
-            },
-            "pgp": {
-                "label": "download pgp",
-                "text": "publickey.asc",
-                "href": "/pgp/publickey.asc",
-                "filename": "publickey.asc"
-            }
-        },
-        "pgpFingerprint": "AAAA AAAA AAAA AAAA AAAA AAAA AAAA",
-        "experience": [
-            {
-                "role": "Senior Software Engineer",
-                "company": "Example Company",
-                "period": "2023 — Present",
-                "description": [
-                    "Led feature development for a large-scale web application, improving reliability and performance.",
-                    "Designed and maintained internal tooling, CI pipelines, and automated testing strategies.",
-                    "Mentored junior engineers and drove code review and architecture discussions."
-                ]
-            },
-            {
-                "role": "Software Engineer",
-                "company": "Example Company",
-                "period": "2021 — 2023",
-                "description": [
-                    "Built and shipped REST and GraphQL APIs backed by relational and NoSQL databases.",
-                    "Deployed and operated services on cloud infrastructure with monitoring and alerting.",
-                    "Collaborated across teams to plan and deliver multi-quarter product initiatives."
-                ]
-            }
-        ],
-        "skills": [
-            {
-                "category": "Languages",
-                "items": [
-                    "TypeScript",
-                    "JavaScript",
-                    "Python",
-                    "Go",
-                    "SQL",
-                    "Bash"
-                ]
-            },
-            {
-                "category": "Frameworks & Libraries",
-                "items": [
-                    "React",
-                    "Node.js",
-                    "Express",
-                    "Astro",
-                    "Prisma",
-                    "Tailwind CSS"
-                ]
-            },
-            {
-                "category": "Infrastructure",
-                "items": [
-                    "Docker",
-                    "Kubernetes",
-                    "AWS",
-                    "GCP",
-                    "Terraform",
-                    "CI/CD"
-                ]
-            },
-            {
-                "category": "Practices",
-                "items": [
-                    "Testing",
-                    "Code Review",
-                    "Agile",
-                    "Observability",
-                    "Security Awareness"
-                ]
-            }
-        ],
-        "education": [
-            {
-                "degree": "B.S. in Computer Science",
-                "institution": "Example University",
-                "period": "2017 — 2021"
-            }
-        ]
+    {
+      "label": "linkedin",
+      "text": "Avancini Lara",
+      "href": "https://www.linkedin.com/in/avancini-lara/",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
     }
+  ],
+  "resume": {
+    "name": "Avancini",
+    "role": "Senior AI Engineer",
+    "bio": "Senior AI and software engineer focused on production LLM systems, AI platforms, and backend engineering. Experienced in taking AI applications from architecture through production, including model evaluation and optimization, APIs, workflow orchestration, cloud infrastructure, and developer tooling.",
+    "downloads": {
+      "cv": {
+        "label": "download cv",
+        "text": "cv.pdf",
+        "href": "/avancini_cv.pdf",
+        "filename": "avancini_cv.pdf"
+      },
+      "pgp": {
+        "label": "download pgp",
+        "text": "publickey.asc",
+        "href": "/pgp/publickey.asc",
+        "filename": "publickey.asc"
+      }
+    },
+    "pgpFingerprint": "0373C0DD571E7C6F12AA1A5E83B92CD78546F342",
+    "experience": [
+      {
+        "role": "Senior AI Engineer",
+        "company": "TELUS Digital",
+        "period": "Jul 2026 — Present",
+        "description": [
+          "Design and build an LLM-assisted platform for identifying, evaluating, and ranking high-quality customer-support interactions across datasets containing hundreds of thousands of transcripts per month, including an automated feedback loop that validates LLM-generated SQL against user requirements and supports iterative corrections through natural-language feedback.",
+          "Designed a Next.js interface and FastAPI backend for reviewing, explaining, editing, and executing generated queries, replacing an initially model-specific prototype with an extensible, OpenAI-compatible API.",
+          "Expanded the platform with eligibility checks, quality scoring, and clustering workflows to further evaluate, filter, and organize candidate conversations.",
+          "Reduced LLM inference costs by more than 90% and made per-transcript processing approximately 3x faster by benchmarking models across accuracy, latency, and cost and moving workloads to more efficient domain-appropriate models.",
+          "Deployed and currently operate the application on Google Cloud Platform using Cloud Run, Cloud Build, Secret Manager, and OAuth 2.0, with ownership spanning frontend, API, LLM workflows, and production deployment."
+        ]
+      },
+      {
+        "role": "Senior Software Engineer",
+        "company": "Telescope Partners",
+        "period": "Jul 2025 — Jun 2026",
+        "description": [
+          "Owned and evolved production workflows built with Apache Airflow, improving reliability, observability, and day-to-day operation of data and automation pipelines.",
+          "Designed and implemented LLM-powered extraction and classification pipelines using structured outputs, prompt engineering, validation, and failure handling for real-world inputs.",
+          "Improved LLM cost control through prompt consolidation, caching, token limits, and safeguards against runaway consumption.",
+          "Migrated data workloads from Tinybird-style implementations to PostgreSQL-backed architectures, focusing on query performance, maintainability, and operational simplicity.",
+          "Built reusable Python libraries and internal tooling that standardized workflow patterns and reduced duplicated implementation work across projects."
+        ]
+      },
+      {
+        "role": "Senior Software Engineer",
+        "company": "Thoughtful AI",
+        "period": "Jul 2024 — Jul 2025",
+        "description": [
+          "Designed reusable internal Python libraries used across multiple projects, reducing duplicated implementation work and standardizing common development patterns.",
+          "Designed architecture for automation and backend systems with an emphasis on maintainability, performance, and production reliability.",
+          "Built and maintained healthcare automation products integrating internal systems, third-party applications, and external APIs."
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Thoughtful AI",
+        "period": "Jun 2023 — Jul 2024",
+        "description": [
+          "Developed Python automation for healthcare workflows using RPAFramework, Selenium, browser automation, and reverse-engineered APIs.",
+          "Integrated healthcare systems without conventional APIs by analyzing application network traffic and reproducing required requests programmatically.",
+          "Automated workflows involving patient, financial, and operational data while maintaining data accuracy and handling production failure cases.",
+          "Monitored and improved deployed automations based on runtime behavior, errors, performance, and changes in external systems, collaborating with engineering and operations teams to diagnose issues."
+        ]
+      },
+      {
+        "role": "Python Developer",
+        "company": "KarHub",
+        "period": "2022 — Jun 2023",
+        "description": [
+          "Developed ETL pipelines for collecting, transforming, and processing business data using Python and Pandas.",
+          "Built web scrapers, data collection systems, and RPA workflows using Selenium and other Python tooling.",
+          "Developed REST APIs with Flask and FastAPI and used RabbitMQ for asynchronous processing and service communication.",
+          "Built serverless workloads with AWS Lambda and used Apache Airflow for scheduling, orchestration, and monitoring of data pipelines."
+        ]
+      },
+      {
+        "role": "Nonlinear Dynamics Researcher",
+        "company": "UNESP — Nonlinear Dynamics Laboratory",
+        "period": "2017 — 2020",
+        "description": [
+          "Developed computational models for nonlinear dynamical systems and translated an existing FORTRAN model to Python.",
+          "Performed numerical and statistical analysis of chaotic systems, including the Dissipative Standard Map.",
+          "Created scientific visualizations with Matplotlib and Gnuplot for analysis and presentation of research results."
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "category": "Programming",
+        "items": ["Python", "SQL", "Typescript", "Any, if it is needed."]
+      },
+      {
+        "category": "AI & LLM Engineering",
+        "items": [
+          "LLM Application Development",
+          "LLM Evaluation & Benchmarking",
+          "Structured Outputs",
+          "Information Extraction",
+          "Classification",
+          "Prompt Engineering",
+          "Model Selection",
+          "Feedback Loops",
+          "Inference Optimization",
+          "OpenAI-compatible APIs"
+        ]
+      },
+      {
+        "category": "AI Platforms & Models",
+        "items": ["Anthropic Claude", "Open-weight LLMs", "Self-hosted LLMs"]
+      },
+      {
+        "category": "Backend & Frontend",
+        "items": [
+          "FastAPI",
+          "Flask",
+          "REST APIs",
+          "Next.js",
+          "React",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "category": "Data & Automation",
+        "items": [
+          "Apache Airflow",
+          "Pandas",
+          "ETL",
+          "RPAFramework",
+          "Selenium",
+          "RabbitMQ",
+          "Web Scraping"
+        ]
+      },
+      {
+        "category": "Cloud & Infrastructure",
+        "items": [
+          "Google Cloud Platform",
+          "Cloud Run",
+          "Cloud Build",
+          "Secret Manager",
+          "OAuth 2.0",
+          "AWS Lambda",
+          "Amazon S3",
+          "Docker"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's Degree in Physics",
+        "institution": "Federal University of Rio Grande do Sul (UFRGS)",
+        "period": "2020 — 2022"
+      },
+      {
+        "degree": "Physics — transferred before completion",
+        "institution": "São Paulo State University (UNESP)",
+        "period": "2017 — 2020"
+      }
+    ]
+  }
 }
