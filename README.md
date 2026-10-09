@@ -1,8 +1,6 @@
-# example-portfolio
+# avancini.dev
 
-> Highly customizable and performant portfolio template built with Astro, React, and Tailwind CSS.
-
-![preview.png](preview.png)
+> My own personal landing page, based on [wqqz.dev](https://github.com/imwqqz/wqqz.dev)
 
 ## What's inside
 
